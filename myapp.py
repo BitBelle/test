@@ -1,4 +1,5 @@
-def greet():
-    return ("Hello World")
+def add(a,b):
+    return (a + b)
 
-greet()
+if __name__ == "__main__":
+    add(2,3)
